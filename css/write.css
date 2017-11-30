@@ -5,8 +5,8 @@ HTML, BODY {
 BODY {
   background: #082330;
   background:linear-gradient(#FA8334,#F06449);
-  background: #2D2877;
-  background:#323648;
+  /*background: #2D2877;
+  background:#323648;*/
   background-size: .12em 100%;
   font: 16em/1 'Proxima nova';
 }
@@ -23,11 +23,12 @@ svg {
 
 .text-copy {
   fill: none;
+  fill:#2D2877;
   stroke: #F06449;
   stroke:#f05d30;
   stroke:#f6f6f6;
   stroke-dasharray: 7% 28%;
-  stroke-width: 1px;
+  stroke-width: 1.5px;
   stroke-linecap: round;
   -webkit-animation: stroke-offset 11s infinite ease-in-out;
   animation: stroke-offset 11s infinite ease-in-out;
@@ -80,8 +81,8 @@ h1 {
     display: block;
     width: 100%;
     top: 75%;
-    font-weight: 400;
-    color: #ababab;
+    font-weight: 300;
+    color: #f7f7fb;
 }
 
 @-webkit-keyframes stroke-offset {
